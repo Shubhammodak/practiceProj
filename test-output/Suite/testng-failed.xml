@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.qa.eprocbilling.test.AddItemPageTest">
+        <methods>
+          <include name="OpenBrowser"/>
+          <include name="quitebr"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.qa.eprocbilling.test.AddItemPageTest -->
+      <class name="com.qa.eprocbilling.test.HomePageTest">
+        <methods>
+          <include name="OpenBrowser"/>
+          <include name="quitebr"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.qa.eprocbilling.test.HomePageTest -->
+      <class name="com.qa.eprocbilling.test.MainMenuTest">
+        <methods>
+          <include name="OpenBrowser"/>
+          <include name="quitebr"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.qa.eprocbilling.test.MainMenuTest -->
+      <class name="com.qa.eprocbilling.test.LoginPageTest">
+        <methods>
+          <include name="objoglogin"/>
+          <include name="OpenBrowser"/>
+          <include name="quitebr"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- com.qa.eprocbilling.test.LoginPageTest -->
+      <class name="com.qa.eprocbilling.test.AddNewCustomerPageTest">
+        <methods>
+          <include name="OpenBrowser"/>
+          <include name="quitebr"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.qa.eprocbilling.test.AddNewCustomerPageTest -->
+      <class name="com.qa.eprocbilling.test.ItemPageTest">
+        <methods>
+          <include name="OpenBrowser"/>
+          <include name="quitebr"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.qa.eprocbilling.test.ItemPageTest -->
+      <class name="com.qa.eprocbilling.test.LogoutPageTest">
+        <methods>
+          <include name="LogoutPageTitleTest"/>
+          <include name="logoutTest"/>
+          <include name="OpenBrowser"/>
+          <include name="objoglogin"/>
+          <include name="quitebr"/>
+        </methods>
+      </class> <!-- com.qa.eprocbilling.test.LogoutPageTest -->
+      <class name="com.qa.eprocbilling.test.CustomerPageTest">
+        <methods>
+          <include name="OpenBrowser"/>
+          <include name="quitebr"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.qa.eprocbilling.test.CustomerPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

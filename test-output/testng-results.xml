@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="74177" started-at="2020-03-12T19:35:03Z" finished-at="2020-03-12T19:36:17Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="74177" started-at="2020-03-12T19:35:03Z" finished-at="2020-03-12T19:36:17Z">
+      <class name="com.qa.eprocbilling.test.AddItemPageTest">
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:com.qa.eprocbilling.test.AddItemPageTest@39c0f4a]" name="OpenBrowser" is-config="true" duration-ms="53117" started-at="2020-03-13T01:05:09Z" finished-at="2020-03-13T01:06:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.eprocbilling.test.AddItemPageTest@39c0f4a]" name="setUp" is-config="true" duration-ms="7677" started-at="2020-03-13T01:06:02Z" finished-at="2020-03-13T01:06:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ItemDetailTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.eprocbilling.test.AddItemPageTest@39c0f4a]" name="ItemDetailTest" duration-ms="6354" started-at="2020-03-13T01:06:10Z" data-provider="getItemData" finished-at="2020-03-13T01:06:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12345.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iQOO 3 (Tornado Black, 128 GB)  (8 GB RAM)]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8 GB RAM | 128 GB ROM |]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[16.36 cm (6.44 inch) Full HD+ Display   ]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[48MP + 13MP + 13MP + 2MP | 16MP Front Camera]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[20.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[123.0]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[55]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[123.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ItemDetailTest -->
+        <test-method status="PASS" signature="quitebr()[pri:0, instance:com.qa.eprocbilling.test.AddItemPageTest@39c0f4a]" name="quitebr" is-config="true" duration-ms="828" started-at="2020-03-13T01:06:16Z" finished-at="2020-03-13T01:06:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitebr -->
+      </class> <!-- com.qa.eprocbilling.test.AddItemPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
